@@ -31,7 +31,7 @@ function App() {
     const getData = (msg) => console.log(msg);
     return (
         <div> 
-            <h1>{fruite}</h1>
+            {/* <h1>{fruite}</h1>
             <button onClick={handleFruite}>Click me to change</button>
             <hr></hr>
             <h3><Counter></Counter></h3>
@@ -39,8 +39,7 @@ function App() {
             <h4><Display></Display></h4>
             <hr></hr>
             <h4><Control></Control></h4>
-            <hr></hr> 
-            {/* <Profs name={name} age={age} email={email}></Profs> */}
+            <hr></hr>  
              <Profs userObject={userObject}></Profs>
             <hr></hr>
             <Profs userObject={userObject1}></Profs>
@@ -51,7 +50,7 @@ function App() {
             <hr></hr> 
              <Checkbox></Checkbox>
              <hr></hr> 
-            <RadioSelect></RadioSelect>
+            <RadioSelect></RadioSelect> */}
         </div>
     )
 
