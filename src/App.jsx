@@ -7,6 +7,7 @@ import DBind from "./DataBind";
 import ControlledComponent from "./ControlledComponent";
 import Checkbox from "./CheckBox";
 import RadioSelect from "./RadioSelect";
+import Loop from "./Loop";
 // 3 hours
 function App() {
 
@@ -51,7 +52,8 @@ function App() {
              <Checkbox></Checkbox>
              <hr></hr> 
             <RadioSelect></RadioSelect>
-            
+            <hr></hr>
+            <Loop></Loop>
         </div>
     )
 
