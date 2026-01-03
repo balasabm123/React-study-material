@@ -10,7 +10,9 @@ import RadioSelect from "./RadioSelect";
 import Loop from "./Loop";
 import LoopComponent from "./LoopComponent";
 import Clock from "./Clock";
-// 3 hours
+import Nested from "./Nested_map";
+import Nest from "./Nest";
+// 04:19 hours
 function App() {
 
     const [fruite, setFruite] = useState("Apple");
@@ -96,6 +98,11 @@ function App() {
             <Clock color={color}></Clock>
             <br></br>
             <hr></hr>
+            <Nested></Nested>
+             <br></br>
+            <hr></hr>
+            <hr></hr>
+            <Nest></Nest>
         </div>
     )
 
