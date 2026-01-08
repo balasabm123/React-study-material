@@ -12,7 +12,13 @@ import LoopComponent from "./LoopComponent";
 import Clock from "./Clock";
 import Nested from "./Nested_map";
 import Nest from "./Nest";
-// 04:19 hours
+import Cont from "./Cont";
+import './css/style.css'; 
+import Styles from "./Styles"
+import Userefer from "./Userefer"
+import UncontrolledC from "./UncontrolledC";
+
+// 06:00 hours
 function App() {
 
     const [fruite, setFruite] = useState("Apple");
@@ -63,7 +69,7 @@ function App() {
     const getData = (msg) => console.log(msg);
     return (
         <div>
-            <h1>{fruite}</h1>
+            {/* <h1>{fruite}</h1>
             <button onClick={handleFruite}>Click me to change</button>
             <hr></hr>
             <h3><Counter></Counter></h3>
@@ -99,10 +105,19 @@ function App() {
             <br></br>
             <hr></hr>
             <Nested></Nested>
-             <br></br>
+            <br></br>
             <hr></hr>
-            <hr></hr>
-            <Nest></Nest>
+            <hr></hr> */}
+            {/* API call */}
+            {/* <Nest></Nest> */}
+            {/* API call */}
+            {/* <hr></hr> */}
+            {/* <Cont></Cont>
+            <br></br>
+            <hr></hr> */}
+            {/* <Styles></Styles> */}
+            {/* <Userefer></Userefer> */}
+            <UncontrolledC></UncontrolledC>
         </div>
     )
 

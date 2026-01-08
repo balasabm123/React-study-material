@@ -16,11 +16,11 @@ const Collegee = ({ colleage }) => {
                 <li>
                     <h2>Students</h2>
                     {
-                        colleage.student.map((std,index)=>
-                              <Student stud={std}></Student> 
+                        colleage.student.map((std, index) =>
+                            <Student key={index} stud={std}></Student>
                         )
                     }
-                    
+
                 </li>
             </ul>
         </div>
