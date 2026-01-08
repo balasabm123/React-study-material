@@ -17,8 +17,9 @@ import './css/style.css';
 import Styles from "./Styles"
 import Userefer from "./Userefer"
 import UncontrolledC from "./UncontrolledC";
+import Userinput from "./Userinput";
 
-// 06:00 hours
+// 07:05 hours
 function App() {
 
     const [fruite, setFruite] = useState("Apple");
@@ -117,7 +118,8 @@ function App() {
             <hr></hr> */}
             {/* <Styles></Styles> */}
             {/* <Userefer></Userefer> */}
-            <UncontrolledC></UncontrolledC>
+            {/* <UncontrolledC></UncontrolledC> */}
+            <Userinput></Userinput>
         </div>
     )
 
