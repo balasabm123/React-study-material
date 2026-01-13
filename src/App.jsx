@@ -18,6 +18,9 @@ import Styles from "./Styles"
 import Userefer from "./Userefer"
 import UncontrolledC from "./UncontrolledC";
 import Userinput from "./Userinput";
+import UsaformStatus from "./UsaformStatus";
+import DerivedState from "./DerivedState";
+import UpdateArrayState from "./UpdateArrayState";
 
 // 07:05 hours
 function App() {
@@ -119,7 +122,10 @@ function App() {
             {/* <Styles></Styles> */}
             {/* <Userefer></Userefer> */}
             {/* <UncontrolledC></UncontrolledC> */}
-            <Userinput></Userinput>
+            {/* <Userinput></Userinput> */}
+            {/* <UsaformStatus></UsaformStatus> */}
+            {/* <DerivedState></DerivedState> */}
+            <UpdateArrayState></UpdateArrayState>
         </div>
     )
 
